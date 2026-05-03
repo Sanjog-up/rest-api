@@ -141,9 +141,8 @@ server.listen(PORT, () => {
 
 //* route params =>
 //  /users/1 => /users/:id =>  req.params => {id:1}
-//  /users/1/orders/1 => /users/:id/orders/:order:id =>  req.params => {id:1}
-//* /users/100 => req.params => {xyz:100}
-
+//? /users/100  => /users/:xyz  => req.params  => {xyz:100}
+//? /users/1/orders/1  => /users/:id/orders/:orderid  => req.params  => {id:1,orderId:1}
 
 
 
