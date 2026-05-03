@@ -147,7 +147,3 @@ server.listen(PORT, () => {
 
 
 
-//! stateless -> each req is independent of other reqs
-//! cacheable -> response can be cached by client or intermediary servers
-//! layered system -> client doesn't know if it's connected directly to the end server or an intermediary server    
-//! uniform interface -> standardized way of communication between client and server
